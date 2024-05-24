@@ -1,0 +1,154 @@
+body {
+  font-family: monospace, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #00ced1;
+  color: #D3D3D3;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: white;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #D3D3D3;
+}
+
+#welcome-section {
+  text-align: center;
+  padding: 80px 20px 50px 20px; 
+  margin-top: 60px; 
+}
+
+#welcome-section img {
+  border-radius: 50%;
+}
+
+#welcome-section h1 {
+  font-size: 40px;
+}
+
+#welcome-section p {
+  font-size: 16px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5; 
+}
+
+.color {
+  color: #00ced1;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#work {
+  padding: 50px 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-tile {
+  background-color: #00ced1;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-tile p {
+  text-align: center;
+}
+
+.project-content a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.project-content a:hover h2 {
+  color: #ffffff;
+}
+
+#contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.profile-link {
+  margin-top: 20px;
+}
+
+.profile-link a {
+  color: #333;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.profile-link a:hover {
+  color: #00ced1;
+}
+
+footer {
+  background-color: #00ced1;
+  color: #000000;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer:hover {
+  color: #ffffff;
+}
+
+.resume-link a {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: monospace;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.resume-link a:hover {
+  color: #00ced1;
+}
+
+.btn {
+  padding: 6px 1rem; /* Adjusted padding */
+  font-size: 12px; /* Adjusted font size */
+}
+
+.modal {
+  padding: 1rem 3rem;
+}
+
+div .btn {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
